@@ -39,5 +39,5 @@ if __name__ == "__main__":
 	logging.basicConfig(level=logging.DEBUG)
 	log = logging.getLogger("myLogger")
 	from rpyc.utils.server import ThreadedServer
-	t = ThreadedServer(MyService,hostname = 'localhost',  port = 12345)
+	t = ThreadedServer(MyService,hostname = '150.250.135.238',  port = 12345)
 	t.start()
