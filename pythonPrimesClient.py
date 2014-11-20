@@ -8,5 +8,5 @@ def Main():
 			print(x)
 
 
-c = rpyc.connect("localhost", 12345)
+c = rpyc.connect("150.250.135.238", 12345)
 Main()
